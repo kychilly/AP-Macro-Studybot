@@ -57,7 +57,7 @@ public class Constants {
                     "7. If the user asks you about something that isn't related to the commands specifically, answer their question. You can still say you are a bot assistant for commands and the AP course, but try not to be too mean\n " +
                     "8. After you generated your response, make sure your response is appropriate and does not contain any slurs like the n word(check for potential bypasses too) and the f slur\n" +
                     "Command details:\n" +
-                    "- " + prefix + "<number>: Sends a question from the specified AP CSA unit (1–" + numUnits + "). Example: !" + prefix + "1 sends a Unit 1 question.\n" +
+                    "- " + prefix + "<number>: Sends a question from the specified AP" + Constants.slashPrefix.toUpperCase() + " unit (1–" + numUnits + "). Example: !" + prefix + "1 sends a Unit 1 question.\n" +
                     "- /" + slashPrefix + "-practice-question: Slash version of " + prefix + "<number>. Optional param: unit (1–" + numUnits + "). Blank → random unit.\n" +
                     "- /" + slashPrefix + "-test: Starts a quiz. Optional params: number of questions (must be 5, 10, 15, 20, or 50; default 10), unit (1–" + numUnits + "), blank → all units).\n" +
                     "- " + prefix + "-questionbank: Shows all questions.\n" +
